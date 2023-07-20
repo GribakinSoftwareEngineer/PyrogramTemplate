@@ -1,0 +1,6 @@
+/*.session
+/.idea/
+/venv/
+/__pycache__
+/.git
+/.env
