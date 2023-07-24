@@ -12,10 +12,14 @@ ARG api_hash
 
 ARG session_name
 
+ARG version
+
 ENV API_ID=$api_id
 
 ENV API_HASH=$api_hash
 
 ENV SESSION_NAME=$session_name
+
+ENV VERSION=$version
 
 CMD ["python", "app.py"]
